@@ -3,7 +3,8 @@ This Code will Add Subviews with animation in baseView
 
 ```swift
 
-     @IBOutlet weak var baseView: UIView!
+     @IBOutlet weak var baseView: UIView!  //This is the container view in which we have to add the subview
+     @IBOutlet weak var childView: UIView! // This is the view we have to add in the baseView as a subview
 
     //MARK: Add Subview in BaseView
     func add(subView childView:UIView){
